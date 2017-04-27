@@ -26,11 +26,3 @@ footer {
         height: auto;
     } 
 }
-
-.one {
-	float:left;
-}
-
-.two {
-	float:right;
-}
