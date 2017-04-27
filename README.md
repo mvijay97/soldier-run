@@ -3,5 +3,7 @@ The repository soldier-run will be used to contain the newest game I am working 
 ### Meter example
 <meter max="10" high="8" low="2" value="6">6</meter>
 #### Screen shot
-<img src="capture55.png" />
+
+<img src="Capture55.png" />
+
 *Note: It is also not supported in markdown!*
