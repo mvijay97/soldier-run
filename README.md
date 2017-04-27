@@ -4,6 +4,6 @@ The repository soldier-run will be used to contain the newest game I am working 
 <meter max="10" high="8" low="2" value="6">6</meter>
 #### Screen shot
 
-<img src="Capture55.png" />
+<img src="https://raw.githubusercontent.com/StevenCopeland/soldier-run/master/Capture55.PNG" />
 
 *Note: It is also not supported in markdown!*
