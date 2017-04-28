@@ -10,3 +10,7 @@ sub {
 	padding:3px;
 	background-color:red;
 }
+
+canvas {
+	border:1px solid black;
+}
