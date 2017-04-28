@@ -19,13 +19,16 @@ var img = document.getElementById("man");
 
 
 var y = 10
-var x = 10
+var x = 20
+var z = 25
 
 setInterval(function() { 
-	if(y < 67) {
+	if(y < 100) {
 		ctx.clearRect(0,0,600,200);
 		y += 0.2
-		x -= 0.2
-		ctx.drawImage(img, x, 10, 20, 25, y, 10, 50, 60);
+		x += 0.2
+		z += 0.2
+		//ctx.drawImage(img, 10, 10, 20, 25, 10, 10, 50, 60);
+		ctx.drawImage(img, 10, 10, 20, 25, y, 10, 50, 60);
 	}
 },10);
