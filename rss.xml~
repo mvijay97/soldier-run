@@ -10,11 +10,13 @@
     <link>https://stevencopeland.github.io/soldier-run/gameLog.html#post1</link>
     <description>The first log entry for the game Soldier-Run</description>
   </item>
+  <!--
   <item>
-    <title>Day 2: HTML & CSS</title>
-    <link>https://stevencopeland.github.io/soldier-run/gameLog.html#post2</link>
-    <description>Today I am going to be working on the  HTML & CSS part of the game.</description>
+    <title>XML Tutorial</title>
+    <link>https://www.w3schools.com/xml</link>
+    <description>New XML tutorial on W3Schools</description>
   </item>
+  -->
 </channel>
 
 </rss>
