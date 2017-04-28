@@ -10,4 +10,5 @@ var canvas = document.getElementById("canvas");
 var ctx = canvas.getContext("2d");
 
 ctx.beginPath();
-ctx.fillRect(100, 0, 25, 600);
+ctx.fillRect(0, 200, 600, 25);
+ctx.fillRect(0, 400, 600, 25);
