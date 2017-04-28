@@ -1,0 +1,4 @@
+var toggle = function() {
+	document.getElementById("second").className = "active"
+	document.getElementById("second").className = "active"
+}
