@@ -31,4 +31,4 @@ setInterval(function() {
 		//ctx.drawImage(img, 10, 10, 20, 25, 10, 10, 50, 60);
 		ctx.drawImage(img, y, 10, 20, 25, y, 10, 50, 60);
 	}
-},10);
+},0.0000000005);
