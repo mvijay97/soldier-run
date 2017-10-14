@@ -34,7 +34,7 @@ setInterval(function() {
 		ctx.drawImage(img, y, 10, 20, 25, y, 10, 50, 60);
 	}
 },0.0000000005);
-flag=1
+var flag=1;
 function fade()
 {
 	var el=document.querySelector("#headcontainer");
@@ -43,17 +43,17 @@ function fade()
 	{
 		this.innerHTML="Exit Fullscreen";	
 		el.style.opacity="0";
-		win.style.width="700px"
-		win.style.height="750px"
-		win.style.top="10px"
+		win.style.width="700px";
+		win.style.height="750px";
+		win.style.top="10px";
 	}
 	else
 	{
 		this.innerHTML="Fullscreen";
 		el.style.opacity="1";
-		win.style.width="600px"
-		win.style.height="600px"
-		win.style.top="150px"
+		win.style.width="600px";
+		win.style.height="600px";
+		win.style.top="150px";
 	}
 }
 
