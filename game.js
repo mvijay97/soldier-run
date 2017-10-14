@@ -38,8 +38,8 @@ var flag=1;
 function fade()
 {
 	var el=document.querySelector("#headcontainer");
-	var win=document.querySelector("#canvas")
-	if(this.innerHTML=="Fullscreen")
+	var win=document.querySelector("#canvas");
+	if(this.innerHTML==="Fullscreen")
 	{
 		this.innerHTML="Exit Fullscreen";	
 		el.style.opacity="0";
