@@ -3,13 +3,23 @@
 	<head>
 		<title>Soldier Run</title>
 		<link rel="stylesheet" href="game.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 		<script src="https://code.jquery.com/jquery-latest.min.js"></script>
 	</head>
 	<body>
-		<h1 class="header">Steven Copeland is proud to present: Soldier Run<sub>A Steven Copeland Production</sub></h1><span class="hide">Hide the header</span>
+		<div id="headcontainer">
+		<h1 class="header">Steven Copeland is proud to present: Soldier Run<sub>A Steven Copeland Production</sub></h1>
+		<!--<p class="tip">For a better experience, try hiding the header and this text by pressing the hide header button</p>-->
+		</div>
 		<canvas width="600" height="600" id="canvas"></canvas>
-		<p class="tip">For a better experience, try hiding the header and this text by pressing the hide header button</p>
-		<img src="3536007bf41649b984f91dfbe3ea46e6-d9hrf29-sheet.png" id="man" class="hidden">
+		
+		<div class="controls">
+			<button class="hide">Fullscreen</button>
+			<audio controls>
+				<source src="" type="audio/mpeg"> <!-- Add source here -->
+			</audio>
+			<img src="3536007bf41649b984f91dfbe3ea46e6-d9hrf29-sheet.png" id="man" class="hidden">
+		</div>
 		<script src="game.js"></script>
 	</body>
 </html>
