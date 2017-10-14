@@ -1,10 +1,12 @@
-$(document).ready(function() {
+$(document).ready(function() 
+{
 	$(".hidden").hide();
-	$(".hide").click(function() { 
+	/*$(".hide").click(function() 
+	{ 
 		$(".header").fadeOut(1000);
 		$(".hide").fadeOut(1000);
 		$(".tip").fadeOut(1000);
-	});
+	});*/
 });
 
 var canvas = document.getElementById("canvas");
@@ -32,3 +34,27 @@ setInterval(function() {
 		ctx.drawImage(img, y, 10, 20, 25, y, 10, 50, 60);
 	}
 },0.0000000005);
+flag=1
+function fade()
+{
+	var el=document.querySelector("#headcontainer");
+	var win=document.querySelector("#canvas")
+	if(this.innerHTML=="Fullscreen")
+	{
+		this.innerHTML="Exit Fullscreen";	
+		el.style.opacity="0";
+		win.style.width="700px"
+		win.style.height="750px"
+		win.style.top="10px"
+	}
+	else
+	{
+		this.innerHTML="Fullscreen";
+		el.style.opacity="1";
+		win.style.width="600px"
+		win.style.height="600px"
+		win.style.top="150px"
+	}
+}
+
+document.querySelector(".hide").addEventListener("click",fade,false);
